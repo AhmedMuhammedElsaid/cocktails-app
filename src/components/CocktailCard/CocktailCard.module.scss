@@ -1,0 +1,26 @@
+@import "../../scss//variables.scss";
+
+.Card {
+  text-decoration: none;
+  min-height: 360px;
+  max-width: 345px;
+  margin: 5px auto;
+  min-width: 355px;
+  color: $darkGrey;
+  box-shadow: 5px 5px 5px 0px $boxShadow;
+  transition: $mainTransition;
+  button {
+    min-height: 100%;
+  }
+  &:hover {
+    box-shadow: 6px 7px 5px 0px $darkBoxShadow;
+    color:$mainOrange;
+    text-decoration:underline;
+    cursor: pointer;
+    opacity: .8;
+  }
+  &__Img {
+    padding: 1em;
+    object-fit: contain !important;
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../scss/variables.scss";
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  &__Pepper {
+    padding: 16px 32px 24px;
+    background-color: $mainWhite;
+    width: 80%;
+    height: 70%;
+    overflow-y: hidden;
+    overflow-y: scroll;
+  }
+  &__ExistIcon{
+    float: right;
+  }
+}

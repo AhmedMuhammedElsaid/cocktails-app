@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Cocktail List Component Show no-data component in case didn't pass cocktails data 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root Container"
+    data-testid="card-holder-testid"
+  />
+</DocumentFragment>
+`;
+
+exports[`Test Cocktail List Component should render all cocktails data passed from outside 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root Container"
+    data-testid="card-holder-testid"
+  >
+    <a
+      class="MuiPaper-root MuiCard-root Card MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="cocktail-card-testid"
+      href="/cocktail-details/14608"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <img
+          alt="Cream Soda"
+          class="MuiCardMedia-root Card__Img MuiCardMedia-media MuiCardMedia-img"
+          data-testid="cocktail-img-testid"
+          height="250"
+          src="https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg"
+        />
+        <div
+          class="MuiCardContent-root"
+        >
+          <div
+            class="MuiTypography-root Cocktail__Name MuiTypography-h6 MuiTypography-gutterBottom"
+            data-testid="cocktail-name-testid"
+          >
+            Cream Soda
+          </div>
+           
+          <div
+            class="MuiTypography-root Category MuiTypography-h6 MuiTypography-gutterBottom"
+            data-testid="cocktail-category-testid"
+          >
+            Cocktail
+          </div>
+          <p
+            class="MuiTypography-root Description MuiTypography-body2"
+            data-testid="cocktail-description-testid"
+          >
+            Geben Sie 3 cl. Spiced Rum in ein Highball-Glas mit Eis. Mit Ginger Ale ....
+          </p>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </a>
+    <a
+      class="MuiPaper-root MuiCard-root Card MuiPaper-elevation1 MuiPaper-rounded"
+      data-testid="cocktail-card-testid"
+      href="/cocktail-details/14709"
+    >
+      <button
+        class="MuiButtonBase-root MuiCardActionArea-root"
+        tabindex="0"
+        type="button"
+      >
+        <img
+          alt="Cream Soda"
+          class="MuiCardMedia-root Card__Img MuiCardMedia-media MuiCardMedia-img"
+          data-testid="cocktail-img-testid"
+          height="250"
+          src="https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg"
+        />
+        <div
+          class="MuiCardContent-root"
+        >
+          <div
+            class="MuiTypography-root Cocktail__Name MuiTypography-h6 MuiTypography-gutterBottom"
+            data-testid="cocktail-name-testid"
+          >
+            Cream Soda
+          </div>
+           
+          <div
+            class="MuiTypography-root Category MuiTypography-h6 MuiTypography-gutterBottom"
+            data-testid="cocktail-category-testid"
+          >
+            Cocktail
+          </div>
+          <p
+            class="MuiTypography-root Description MuiTypography-body2"
+            data-testid="cocktail-description-testid"
+          >
+            Geben Sie 3 cl. Spiced Rum in ein Highball-Glas mit Eis. Mit Ginger Ale ....
+          </p>
+        </div>
+        <span
+          class="MuiCardActionArea-focusHighlight"
+        />
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </a>
+  </div>
+</DocumentFragment>
+`;

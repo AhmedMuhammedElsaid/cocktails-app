@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Cocktail Input Component should render input and simulate the user typing action 1`] = `
+<DocumentFragment>
+  <div
+    class="Container"
+  >
+    <div
+      class="Container__Head"
+    >
+      <div>
+        <h2>
+          Cocktail Searcher
+        </h2>
+        <p>
+          browse through all cocktails based on initial letter 
+          <br />
+          cocktails with the initial letter will show up immediately 
+        </p>
+      </div>
+    </div>
+    <div
+      class="Container__Input__Icon"
+    >
+      <input
+        autocomplete="false"
+        data-testid="cocktail-input-testid"
+        name="name"
+        placeholder="search by initial cocktail letter here...."
+        type="search"
+        value=""
+      />
+      <img
+        alt="search icon"
+        src="searchIcon.png"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

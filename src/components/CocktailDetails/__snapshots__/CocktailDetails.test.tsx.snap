@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test cocktail details component render cocktail details   without error 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="cocktail-details-testid"
+  >
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        idDrink : 
+      </span>
+      14608
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        Alcoholic : 
+      </span>
+      Alcoholic
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        Glass : 
+      </span>
+      Highball glass
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        Instructions : 
+      </span>
+      Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale.
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        InstructionsDE : 
+      </span>
+      Geben Sie 3 cl. Spiced Rum in ein Highball-Glas mit Eis. Mit Ginger Ale .
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        InstructionsIT : 
+      </span>
+      Versare 30gr di rum speziato in un bicchiere highball con ghiaccio.Riempi con Ginger Ale.
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Ingredient MuiTypography-h6"
+    >
+      Ingredient1 : Spiced rum
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Ingredient MuiTypography-h6"
+    >
+      Ingredient2 : Ginger ale
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        CreativeCommonsConfirmed : 
+      </span>
+      No
+    </h6>
+    <h6
+      class="MuiTypography-root CocktailDetails__Info MuiTypography-h6"
+    >
+      <span>
+        dateModified : 
+      </span>
+      2016-11-15 11:29:27
+    </h6>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`test cocktail details component render cocktail details without passing data 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="cocktail-details-testid"
+  />
+</DocumentFragment>
+`;

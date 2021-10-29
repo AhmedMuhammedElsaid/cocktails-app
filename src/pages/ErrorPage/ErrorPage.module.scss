@@ -1,0 +1,30 @@
+@import "../../scss/variables.scss";
+.ErrorPage {
+  min-height: 80vh;
+  &__status {
+    margin: 0 0 40px;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: 0.15em;
+  }
+  &__message {
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  &__BtnHolder {
+    margin-block-start: 2em;
+  }
+  &__Btn {
+    padding: .5em;
+    border-radius: 0.7em;
+    background: $primaryColor;
+    color: $mainWhite;
+    font-size: 1.3em;
+    margin-block-start: 2em;
+    text-transform: capitalize;
+
+    text-decoration: none;
+  }
+}

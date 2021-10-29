@@ -1,0 +1,19 @@
+@font-face {
+  font-family: CairoRegular;
+  src: url(../assets//fonts/Cairo-Regular.ttf);
+  font-display: swap;
+}
+
+$CairoRegular: "CairoRegular", sans-serif;
+$primaryColor: #2c78b0;
+$primaryRGBA: rgba(0, 0, 0, 0.3);
+$mainGrey: #fafafa;
+$darkGrey: #5f5e5e;
+$lightGrey: #6c757d;
+$mainBlack: #222;
+$mainBackground: #b9b0b0;
+$mainWhite: #fff;
+$mainOrange:#C7511F;
+$mainTransition: all 0.5s ease-in-out;
+$boxShadow: rgba(0, 0, 0, 0.3);
+$darkBoxShadow: rgba(0, 0, 0, 0.6);

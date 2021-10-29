@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test no data component renders without error 1`] = `
+<DocumentFragment>
+  <div
+    class="NoData"
+    data-testid="no-data-testid"
+  >
+    No Data Found
+  </div>
+</DocumentFragment>
+`;

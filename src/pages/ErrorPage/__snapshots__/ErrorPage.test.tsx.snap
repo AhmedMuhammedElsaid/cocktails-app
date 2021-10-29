@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test error page rendering without crashing renders without error 1`] = `
+<DocumentFragment>
+  <div
+    class="react-reveal"
+  >
+    <div
+      class="MuiGrid-root ErrorPage MuiGrid-container MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"
+    >
+      <h1
+        class="ErrorPage__message"
+        data-testid="error-msg-testid"
+      >
+        Ooops!!,Something Went Wrong
+      </h1>
+      <span
+        class="ErrorPage__BtnHolder"
+        data-testid="go-home-testid"
+      >
+        <a
+          class="ErrorPage__Btn"
+          href="/"
+          rel="preconnect"
+        >
+          Go back to home
+        </a>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

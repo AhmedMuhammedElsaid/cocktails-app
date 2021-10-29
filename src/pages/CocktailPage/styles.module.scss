@@ -1,0 +1,53 @@
+@import "../../scss//variables.scss";
+.HomeBtn{
+  margin-block-start: 2rem;
+    padding:.5rem 1rem;
+    display: inline-block;
+    text-transform: uppercase;  
+    color:$mainWhite;
+    background:$primaryColor;
+    text-decoration: none;
+    letter-spacing: .3rem;
+    outline: 2px solid $primaryColor;
+    outline-offset:4px ;
+    border: none;
+    transition: $mainTransition;
+  
+  &:hover{
+    background: $darkGrey;
+    text-decoration: none;
+    color: $primaryColor;
+    outline-color: $darkGrey;
+  }
+}
+.DetailsPage {
+  &__Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-block-start: 5rem;
+    &__Img {
+      border-radius: 1rem;
+      width: 100%;
+      height: 100%;
+    }
+    &__Details {
+      h3 {
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+        letter-spacing: 0.3rem;
+        text-transform: capitalize;
+        margin-block-end: 0.5em;
+      }
+      h5 {
+        margin-block-end: 0.5em;
+      }
+    }
+  }
+}
+:global{
+  .react-reveal{
+    width: 100% ;
+  }
+}

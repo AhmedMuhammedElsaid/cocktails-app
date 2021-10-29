@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test default render to the home page should render home page without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="react-reveal"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12"
+      >
+        <div
+          class="Container"
+        >
+          <div
+            class="Container__Head"
+          >
+            <div>
+              <h2>
+                Cocktail Searcher
+              </h2>
+              <p>
+                browse through all cocktails based on initial letter 
+                <br />
+                cocktails with the initial letter will show up immediately 
+              </p>
+            </div>
+          </div>
+          <div
+            class="Container__Input__Icon"
+          >
+            <input
+              autocomplete="false"
+              data-testid="cocktail-input-testid"
+              name="name"
+              placeholder="search by initial cocktail letter here...."
+              type="search"
+              value="f"
+            />
+            <img
+              alt="search icon"
+              src="searchIcon.png"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12"
+      >
+        <div
+          class="react-reveal"
+        >
+          <div
+            class="MuiGrid-root Container"
+            data-testid="card-holder-testid"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"
+      >
+        <div
+          class="MuiGrid-root Random__Cocktails MuiGrid-item MuiGrid-grid-sm-3"
+        >
+          <hr
+            class="MuiDivider-root"
+          />
+          <div
+            class="Loader"
+            data-testid="loader-spinner-testid"
+          >
+            <div
+              class="MuiCircularProgress-root MuiCircularProgress-indeterminate"
+              role="progressbar"
+              style="width: 40px; height: 40px;"
+            >
+              <svg
+                class="MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
