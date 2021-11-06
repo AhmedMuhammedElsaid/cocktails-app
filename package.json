@@ -31,7 +31,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +59,8 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash.debounce": "^4.0.6"
+    "@types/lodash.debounce": "^4.0.6",
+    "husky": "^7.0.4",
+    "prettier": "^2.4.1"
   }
 }
