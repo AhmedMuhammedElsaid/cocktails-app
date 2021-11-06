@@ -80,7 +80,7 @@ const Home: FunctionComponent = () => {
             <Divider variant="fullWidth" />
             {randomCocktail ? (
               <Fade bottom duration={2000} distance="40px">
-                <h2>Der zufällige Cocktail</h2>
+                <h2>The Random Cocktail</h2>
                 <CocktailCard cocktail={randomCocktail} />
               </Fade>
             ) : (
