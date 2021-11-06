@@ -23,6 +23,6 @@ export const cocktailCardMockedData = {
   strDrink: "Cream Soda",
   strCategory: "Cocktail",
   strDrinkThumb: `https://www.thecocktaildb.com/images/media/drink/yqstxr1479209367.jpg`,
-  strInstructionsDE:
+  strInstructions:
     "Geben Sie 3 cl. Spiced Rum in ein Highball-Glas mit Eis. Mit Ginger Ale .",
 };

@@ -52,7 +52,7 @@ exports[`Test Cocktail List Component should render all cocktails data passed fr
             class="MuiTypography-root Description MuiTypography-body2"
             data-testid="cocktail-description-testid"
           >
-            Geben Sie 3 cl. Spiced Rum in ein Highball-Glas mit Eis. Mit Ginger Ale ....
+            Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale....
           </p>
         </div>
         <span
@@ -100,7 +100,7 @@ exports[`Test Cocktail List Component should render all cocktails data passed fr
             class="MuiTypography-root Description MuiTypography-body2"
             data-testid="cocktail-description-testid"
           >
-            Geben Sie 3 cl. Spiced Rum in ein Highball-Glas mit Eis. Mit Ginger Ale ....
+            Pour 1oz of Spiced Rum into a highball glass with ice. Fill with Ginger Ale....
           </p>
         </div>
         <span

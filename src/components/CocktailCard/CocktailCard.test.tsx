@@ -20,7 +20,7 @@ describe("Test Cocktail Card Item to render without Errors", () => {
       cocktailCardMockedData.strCategory
     );
     expect(getByTestId(cocktailDesc)).toHaveTextContent(
-      cocktailCardMockedData.strInstructionsDE
+      cocktailCardMockedData.strInstructions
     );
     expect(getByTestId(cocktailImg)).toHaveAttribute(
       "src",
