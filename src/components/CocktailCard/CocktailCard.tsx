@@ -21,10 +21,7 @@ const CocktailCard: FunctionComponent<Props> = ({ cocktail, hideDesc }) => {
     <>
       {/* 
         // @ts-ignore */}
-      <Card
-        component={Link}
-        to={`/cocktail-details/${idDrink}`}
-        className={styles.Card}
+      <Card component={Link} to={`/cocktail-details/${idDrink}`} className={styles.Card}
         data-testid="cocktail-card-testid"
       >
         <CardActionArea>
