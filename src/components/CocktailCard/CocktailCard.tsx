@@ -59,7 +59,7 @@ const CocktailCard: FunctionComponent<Props> = ({ cocktail, hideDesc }) => {
                       className="Description"
                       data-testid="cocktail-description-testid"
                     >
-                      {strInstructionsDE?.slice(0, 120)}...
+                      {strInstructions?.slice(0, 120)}...
                     </Typography>
                   </>
                 )}
